@@ -5,6 +5,7 @@
 }
 
 .card {
+  /* width: 358px; */
   margin: 10rem 1rem;
   margin-bottom: 0;
   padding: 1rem;
@@ -35,5 +36,24 @@ button {
   font-size: 16px;
   cursor: pointer;
   border-radius: 8px;
+}
 
+h1 {
+  font-weight: lighter;
+  font-style: italic;
+}
+
+h1 span {
+  font-weight: bold;
+}
+
+p {
+  text-align: center;
+}
+
+/* Media query for large screens */
+@media (min-width: 540px) {
+  .card {
+    width: 358px;
+  }
 }
